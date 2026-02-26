@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单位详情 - IPv6监测结果展示平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>IPv6监测结果展示平台</h1>
+            <p class="subtitle">单位详情信息</p>
+        </header>
+
+        <main class="main-content">
+            <!-- 返回按钮和刷新按钮 -->
+            <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+                <button class="btn btn-secondary" onclick="goBack()">
+                    <span class="icon">←</span> 返回列表
+                </button>
+                <button class="btn btn-secondary" onclick="manualRefresh()" title="手动刷新数据">
+                    <span class="icon">🔄</span> 刷新
+                </button>
+            </div>
+
+            <!-- 单位信息头部 -->
+            <div class="detail-header">
+                <h2 class="detail-title" id="unitName">加载中...</h2>
+                <div class="detail-info">
+                    <div class="detail-info-item">
+                        <span class="detail-info-label">目标网站</span>
+                        <span class="detail-info-value" id="unitWebsite">-</span>
+                    </div>
+                    <div class="detail-info-item">
+                        <span class="detail-info-label">综合得分</span>
+                        <span class="detail-info-value" id="unitScore">-</span>
+                    </div>
+                    <div class="detail-info-item">
+                        <span class="detail-info-label">检测时间</span>
+                        <span class="detail-info-value" id="unitTime">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sheet标签页 -->
+            <div class="sheet-tabs" id="sheetTabs">
+                <!-- 动态生成 -->
+            </div>
+
+            <!-- Sheet内容 -->
+            <div class="sheet-content">
+                <div class="table-container">
+                    <table class="data-table" id="detailTable">
+                        <thead id="detailTableHead">
+                            <!-- 动态生成 -->
+                        </thead>
+                        <tbody id="detailTableBody">
+                            <!-- 动态生成 -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 分页控件 -->
+                <div class="pagination" id="detailPagination">
+                    <div class="page-info">
+                        每页显示
+                        <select id="detailPageSize" onchange="changeDetailPageSize()">
+                            <option value="10">10</option>
+                            <option value="20" selected>20</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                        条，共 <span id="detailTotalItems">0</span> 条记录
+                    </div>
+                    <div class="page-controls">
+                        <button class="page-btn" onclick="goToDetailFirstPage()" id="detailBtnFirst">首页</button>
+                        <button class="page-btn" onclick="goToDetailPrevPage()" id="detailBtnPrev">上一页</button>
+                        <span class="page-number">第 <span id="detailCurrentPage">1</span> / <span id="detailTotalPages">1</span> 页</span>
+                        <button class="page-btn" onclick="goToDetailNextPage()" id="detailBtnNext">下一页</button>
+                        <button class="page-btn" onclick="goToDetailLastPage()" id="detailBtnLast">末页</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 下载区域 -->
+            <div class="download-section">
+                <h3>下载详细报告</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">下载包含所有Sheet工作表的完整Excel文件</p>
+                <button class="btn-download" onclick="downloadDetailExcel()">
+                    <span class="icon">📥</span> 下载Excel文件
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>IPv6监测结果展示平台 &copy; 2026</p>
+        </footer>
+    </div>
+
+    <!-- 加载提示 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p>正在加载数据...</p>
+    </div>
+
+    <script src="fileMapper.js"></script>
+    <script src="ws-client.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>

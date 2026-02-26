@@ -1,0 +1,18 @@
+[2026-02-25 17:30:53] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-25 17:30:53] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)
+[2026-02-25 17:30:54] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-25 17:30:54] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)
+[2026-02-26 08:41:30] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-26 08:41:30] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)

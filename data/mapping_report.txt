@@ -1,0 +1,150 @@
+============================================================
+单位名称与详情文件映射关系报告
+生成时间: 2026-02-26 08:41:30
+============================================================
+
+总体得分表: 总体得分表_20260216_114402.xlsx
+
+详情文件数量: 23
+单位数量: 22
+
+------------------------------------------------------------
+详细映射关系:
+------------------------------------------------------------
+
+
+【中共成都市双流区委史志办公室】
+  [1] 中共成都市双流区委史志办公室__www.slsz.org.cn__OK__f53b2416.xlsx
+      网站: www.slsz.org.cn
+      状态: OK
+      标识: f53b2416
+
+【四川省双流棠湖中学】
+  [1] 四川省双流棠湖中学__www.tanghu.net__OK__6ee5c90f.xlsx
+      网站: www.tanghu.net
+      状态: OK
+      标识: 6ee5c90f
+
+【四川省双流艺体中学】
+  [1] 四川省双流艺体中学__www.yitischool.cn__OK__c78ccb27.xlsx
+      网站: www.yitischool.cn
+      状态: OK
+      标识: c78ccb27
+
+【四川省成都市双流区东升第一初级中学】
+  [1] 四川省成都市双流区东升第一初级中学__www.sldsyz.cn__OK__54fdd611.xlsx
+      网站: www.sldsyz.cn
+      状态: OK
+      标识: 54fdd611
+
+【四川省成都市第二中学（北京师范大学成都实验中学）】
+  [1] 四川省成都市第二中学（北京师范大学成都实验中学）__www.cd2z.cn__OK__f1cf72c8.xlsx
+      网站: www.cd2z.cn
+      状态: OK
+      标识: f1cf72c8
+
+【成都市公共资源交易服务中心（成都市政府采购中心）】
+  [1] 成都市公共资源交易服务中心（成都市政府采购中心）__cdggzy.chengdu.gov.cn__OK__2ce058e8.xlsx
+      网站: cdggzy.chengdu.gov.cn
+      状态: OK
+      标识: 2ce058e8
+  [2] 成都市公共资源交易服务中心（成都市政府采购中心）__www.cdggzy.com__OK__eff7a365.xlsx
+      网站: www.cdggzy.com
+      状态: OK
+      标识: eff7a365
+
+【成都市农林科学院】
+  [1] 成都市农林科学院__www.cdnky.com__OK__e2606ac5.xlsx
+      网站: www.cdnky.com
+      状态: OK
+      标识: e2606ac5
+
+【成都市双流区互联网信息中心】
+  [1] 成都市双流区互联网信息中心__www.slwmw.cn__OK__90b225c1.xlsx
+      网站: www.slwmw.cn
+      状态: OK
+      标识: 90b225c1
+
+【成都市双流区图书馆】
+  [1] 成都市双流区图书馆__www.sllib.cn__OK__eb7cf15a.xlsx
+      网站: www.sllib.cn
+      状态: OK
+      标识: eb7cf15a
+
+【成都市双流区融媒体中心(成都市双流区广播电视台)】
+  [1] 成都市双流区融媒体中心(成都市双流区广播电视台)__www.sltv.net__OK__31e3b74e.xlsx
+      网站: www.sltv.net
+      状态: OK
+      标识: 31e3b74e
+
+【成都市工业互联网发展中心】
+  [1] 成都市工业互联网发展中心__www.cdiisp.com__OK__12003444.xlsx
+      网站: www.cdiisp.com
+      状态: OK
+      标识: 12003444
+
+【成都市成华区图书馆】
+  [1] 成都市成华区图书馆__www.chlib.org__OK__c092b0df.xlsx
+      网站: www.chlib.org
+      状态: OK
+      标识: c092b0df
+
+【成都市成华区文物保护管理所】
+  [1] 成都市成华区文物保护管理所__www.chwkyzt.cn__OK__1ce43760.xlsx
+      网站: www.chwkyzt.cn
+      状态: OK
+      标识: 1ce43760
+
+【成都市成华区融媒体中心】
+  [1] 成都市成华区融媒体中心__www.chrmpaper.com__OK__48a7d34d.xlsx
+      网站: www.chrmpaper.com
+      状态: OK
+      标识: 48a7d34d
+
+【成都市文化数据中心（成都市文物信息中心、成都市文化遗产保护研究中心）】
+  [1] 成都市文化数据中心（成都市文物信息中心、成都市文化遗产保护研究中心）__www.zhbwg.org.cn__OK__2c4240c0.xlsx
+      网站: www.zhbwg.org.cn
+      状态: OK
+      标识: 2c4240c0
+
+【成都市新津区图书馆】
+  [1] 成都市新津区图书馆__www.xjtsg.com__OK__530784d1.xlsx
+      网站: www.xjtsg.com
+      状态: OK
+      标识: 530784d1
+
+【成都市泡桐树中学】
+  [1] 成都市泡桐树中学__cdpts.cn__OK__dc8612e4.xlsx
+      网站: cdpts.cn
+      状态: OK
+      标识: dc8612e4
+
+【成都市特种设备检验检测研究院（成都市特种设备应急处置中心）】
+  [1] 成都市特种设备检验检测研究院（成都市特种设备应急处置中心）__www.cdsei.net__OK__f26e0477.xlsx
+      网站: www.cdsei.net
+      状态: OK
+      标识: f26e0477
+
+【成都市社会组织社区和社工人才服务中心】
+  [1] 成都市社会组织社区和社工人才服务中心__cdnpo.cdszhmz.cn__OK__50deabcf.xlsx
+      网站: cdnpo.cdszhmz.cn
+      状态: OK
+      标识: 50deabcf
+
+【成都市金牛交子幼儿园】
+  [1] 成都市金牛交子幼儿园__www.jnjzyey.com__OK__a6c20fcc.xlsx
+      网站: www.jnjzyey.com
+      状态: OK
+      标识: a6c20fcc
+
+【成都市金融发展促进中心】
+  [1] 成都市金融发展促进中心__www.cdmfrs.cn__OK__6a808fbc.xlsx
+      网站: www.cdmfrs.cn
+      状态: OK
+      标识: 6a808fbc
+
+【成都市龙泉驿区东安湖学校】
+  [1] 成都市龙泉驿区东安湖学校__www.cddah.net__OK__5ad1729c.xlsx
+      网站: www.cddah.net
+      状态: OK
+      标识: 5ad1729c

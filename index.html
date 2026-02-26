@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPv6监测结果展示平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>IPv6监测结果展示平台</h1>
+            <p class="subtitle">监测数据实时展示与下载</p>
+        </header>
+
+        <main class="main-content">
+            <!-- 统计卡片 -->
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-value" id="totalCount">-</div>
+                    <div class="stat-label">监测单位总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="avgScore">-</div>
+                    <div class="stat-label">平均综合得分</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="highScoreCount">-</div>
+                    <div class="stat-label">满分单位数</div>
+                </div>
+            </div>
+
+            <!-- 工具栏 -->
+            <div class="toolbar">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索单位名称或网站...">
+                    <button class="btn-search" onclick="filterData()">搜索</button>
+                </div>
+                <div class="toolbar-actions">
+                    <button class="btn btn-secondary" onclick="manualRefresh()" title="手动刷新数据">
+                        <span class="icon">🔄</span> 刷新
+                    </button>
+                    <button class="btn btn-primary" onclick="downloadOverallExcel()">
+                        <span class="icon">📥</span> 下载Excel
+                    </button>
+                </div>
+            </div>
+
+            <!-- 表格区域 -->
+            <div class="table-container">
+                <table class="data-table" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th class="col-index">序号</th>
+                            <th class="col-sortable" onclick="sortTable('归属单位名称')">
+                                归属单位名称 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('目标网站')">
+                                目标网站 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('综合得分')">
+                                综合得分 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('首页支持率')">
+                                一级链接支持率 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('二级链接支持率')">
+                                二级链接支持率 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('三级链接支持率')">
+                                三级链接支持率 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-sortable" onclick="sortTable('检测时间')">
+                                检测时间 <span class="sort-icon">↕</span>
+                            </th>
+                            <th class="col-action">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- 数据将通过JavaScript动态插入 -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 分页控件 -->
+            <div class="pagination" id="pagination">
+                <div class="page-info">
+                    每页显示
+                    <select id="pageSize" onchange="changePageSize()">
+                        <option value="10">10</option>
+                        <option value="20" selected>20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    条，共 <span id="totalItems">0</span> 条记录
+                </div>
+                <div class="page-controls">
+                    <button class="page-btn" onclick="goToFirstPage()" id="btnFirst">首页</button>
+                    <button class="page-btn" onclick="goToPrevPage()" id="btnPrev">上一页</button>
+                    <span class="page-number">第 <span id="currentPage">1</span> / <span id="totalPages">1</span> 页</span>
+                    <button class="page-btn" onclick="goToNextPage()" id="btnNext">下一页</button>
+                    <button class="page-btn" onclick="goToLastPage()" id="btnLast">末页</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>IPv6监测结果展示平台 &copy; 2026</p>
+        </footer>
+    </div>
+
+    <!-- 加载提示 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <p>正在加载数据...</p>
+    </div>
+
+    <script src="fileMapper.js"></script>
+    <script src="ws-client.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

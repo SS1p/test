@@ -1,0 +1,122 @@
+[2026-02-25 17:29:10] [INFO]: 开始监控目录: D:\Dev\Project\Coding\down\data
+[2026-02-25 17:29:10] [INFO]: 开始解析流程 [触发方式: initial]
+[2026-02-25 17:29:10] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:29:10] [INFO]: 开始扫描文件...
+[2026-02-25 17:29:10] [INFO]: =================================
+[2026-02-25 17:29:10] [INFO]: 服务已启动
+[2026-02-25 17:29:10] [INFO]: HTTP端口: 3000
+[2026-02-25 17:29:10] [INFO]: 数据目录: D:\Dev\Project\Coding\down\data
+[2026-02-25 17:29:10] [INFO]: =================================
+[2026-02-25 17:29:10] [INFO]: 发现总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:29:10] [INFO]: 文件列表已更新: D:\Dev\Project\Coding\down\data\file_list.json
+[2026-02-25 17:29:10] [INFO]: 文件监控已就绪
+[2026-02-25 17:29:10] [INFO]: 映射报告已更新: D:\Dev\Project\Coding\down\data\mapping_report.json
+[2026-02-25 17:29:10] [INFO]: 文件扫描完成，共 24 个文件，耗时 22ms
+[2026-02-25 17:29:10] [INFO]: 解析总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:29:10] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:29:10] [INFO]: 解析完成，耗时 35ms
+[2026-02-25 17:29:30] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:29:31] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:29:32] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:29:37] [INFO]: 客户端请求手动扫描
+[2026-02-25 17:29:37] [INFO]: 开始解析流程 [触发方式: manual]
+[2026-02-25 17:29:37] [INFO]: 广播消息已发送给 1 个客户端
+[2026-02-25 17:29:37] [INFO]: 开始扫描文件...
+[2026-02-25 17:29:37] [INFO]: 发现总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:29:37] [INFO]: 文件列表已更新: D:\Dev\Project\Coding\down\data\file_list.json
+[2026-02-25 17:29:37] [INFO]: 映射报告已更新: D:\Dev\Project\Coding\down\data\mapping_report.json
+[2026-02-25 17:29:37] [INFO]: 文件扫描完成，共 24 个文件，耗时 22ms
+[2026-02-25 17:29:37] [INFO]: 解析总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:29:37] [INFO]: 广播消息已发送给 1 个客户端
+[2026-02-25 17:29:37] [INFO]: 解析完成，耗时 31ms
+[2026-02-25 17:29:46] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:29:46] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:29:55] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:29:56] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:30:10] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:30:10] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:30:53] [INFO]: 开始监控目录: D:\Dev\Project\Coding\down\data
+[2026-02-25 17:30:53] [INFO]: 开始解析流程 [触发方式: initial]
+[2026-02-25 17:30:53] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:30:53] [INFO]: 开始扫描文件...
+[2026-02-25 17:30:53] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-25 17:30:53] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)
+[2026-02-25 17:30:53] [INFO]: 发现总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:30:53] [INFO]: 文件列表已更新: D:\Dev\Project\Coding\down\data\file_list.json
+[2026-02-25 17:30:53] [INFO]: 文件监控已就绪
+[2026-02-25 17:30:53] [INFO]: 映射报告已更新: D:\Dev\Project\Coding\down\data\mapping_report.json
+[2026-02-25 17:30:53] [INFO]: 文件扫描完成，共 24 个文件，耗时 21ms
+[2026-02-25 17:30:53] [INFO]: 解析总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:30:53] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:30:53] [INFO]: 解析完成，耗时 35ms
+[2026-02-25 17:30:54] [INFO]: 开始监控目录: D:\Dev\Project\Coding\down\data
+[2026-02-25 17:30:54] [INFO]: 开始解析流程 [触发方式: initial]
+[2026-02-25 17:30:54] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:30:54] [INFO]: 开始扫描文件...
+[2026-02-25 17:30:54] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-25 17:30:54] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)
+[2026-02-25 17:30:54] [INFO]: 发现总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:30:54] [INFO]: 文件列表已更新: D:\Dev\Project\Coding\down\data\file_list.json
+[2026-02-25 17:30:54] [INFO]: 文件监控已就绪
+[2026-02-25 17:30:54] [INFO]: 映射报告已更新: D:\Dev\Project\Coding\down\data\mapping_report.json
+[2026-02-25 17:30:54] [INFO]: 文件扫描完成，共 24 个文件，耗时 22ms
+[2026-02-25 17:30:54] [INFO]: 解析总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-25 17:30:54] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-25 17:30:54] [INFO]: 解析完成，耗时 37ms
+[2026-02-25 17:31:27] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:31:28] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:32:10] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:32:11] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:32:14] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:32:14] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:33:15] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:33:15] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:33:18] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:33:18] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:33:23] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:33:23] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:33:29] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:33:29] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:37:27] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:37:33] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 17:37:34] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 17:37:39] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 18:35:11] [INFO]: WebSocket客户端断开: ::1
+[2026-02-25 19:57:57] [INFO]: WebSocket客户端连接: ::1
+[2026-02-25 19:57:58] [INFO]: WebSocket客户端断开: ::1
+[2026-02-26 01:46:53] [INFO]: WebSocket客户端连接: ::1
+[2026-02-26 01:46:54] [INFO]: WebSocket客户端断开: ::1
+[2026-02-26 08:25:34] [INFO]: WebSocket客户端连接: ::1
+[2026-02-26 08:26:07] [INFO]: WebSocket客户端断开: ::1
+[2026-02-26 08:26:13] [INFO]: WebSocket客户端连接: ::1
+[2026-02-26 08:27:26] [INFO]: WebSocket客户端断开: ::1
+[2026-02-26 08:27:26] [INFO]: WebSocket客户端连接: ::1
+[2026-02-26 08:30:44] [INFO]: 正在关闭服务...
+[2026-02-26 08:32:23] [INFO]: WebSocket客户端断开: ::1
+[2026-02-26 08:41:30] [INFO]: 开始监控目录: D:\Dev\Project\Coding\down\data
+[2026-02-26 08:41:30] [INFO]: 开始解析流程 [触发方式: initial]
+[2026-02-26 08:41:30] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-26 08:41:30] [INFO]: 开始扫描文件...
+[2026-02-26 08:41:30] [ERROR]: 未捕获的异常: listen EADDRINUSE: address already in use :::3000
+[2026-02-26 08:41:30] [ERROR]: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at init (D:\Dev\Project\Coding\down\server.js:521:12)
+[2026-02-26 08:41:30] [INFO]: 发现总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-26 08:41:30] [INFO]: 文件列表已更新: D:\Dev\Project\Coding\down\data\file_list.json
+[2026-02-26 08:41:30] [INFO]: 文件监控已就绪
+[2026-02-26 08:41:30] [INFO]: 映射报告已更新: D:\Dev\Project\Coding\down\data\mapping_report.json
+[2026-02-26 08:41:30] [INFO]: 文件扫描完成，共 24 个文件，耗时 20ms
+[2026-02-26 08:41:30] [INFO]: 解析总体得分表: 总体得分表_20260216_114402.xlsx
+[2026-02-26 08:41:30] [INFO]: 广播消息已发送给 0 个客户端
+[2026-02-26 08:41:30] [INFO]: 解析完成，耗时 34ms
+[2026-02-26 08:42:13] [INFO]: WebSocket客户端连接: ::1
